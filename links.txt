@@ -1,0 +1,17 @@
+
+
+TMDB API => 67805d30a12125f29162ea1a8357dfb9
+TMDB URL =>https://api.themoviedb.org/3/discover/movie?
+
+
+
+
+
+//
+
+All  movies Base URl=> https://freetestapi.com/api/v1/movies
+single =>  https://freetestapi.com/api/v1/movies/1
+limit =>  https://freetestapi.com/api/v1/movies?limit=5
+Request Search =>  https://freetestapi.com/api/v1/movies?search=[query]
+
+Request Sort = > https://freetestapi.com/api/v1/movies?sort=name&order=dec
