@@ -23,8 +23,8 @@ function MovieDetail() {
     useEffect(() => {
         getData()
     }, [])
-    useEffect(()=>{
-        document.title =`${data.original_title}/cinemate`
+    useEffect(() => {
+        document.title = `${data.original_title}/cinemate`
     })
     return (
         <main>

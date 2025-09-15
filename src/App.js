@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [show, setShow] = useState([]);
+  const [darkMode,setdarkMode] = useState()
   const getData = async () => {
     try {
       await fetch("https://api.themoviedb.org/3/discover/movie?api_key=67805d30a12125f29162ea1a8357dfb9")
